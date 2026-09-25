@@ -72,6 +72,37 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v2.0.5** — 2026-09-06
+  - Fixed: the app name in the top-left corner was squashed onto one line. It now sits cleanly on two.
+
+**v2.0.4** — 2026-09-06
+  - Completely rebuilt layout. The keyboard now auto-fits your window, so nothing gets cut off at the edges no matter the size.
+  - New editing flow: click any key and a small editor pops up next to it. Enter saves, Tab jumps to the next key, Esc cancels. You can see what you're typing on the key as you go.
+  - Layers: record what a key does while Shift, Ctrl or Alt is held. Small coloured dots show which keys have combos.
+  - Profiles moved to a side panel with rename, duplicate, export and delete. Every profile shows how many keys it has bound.
+  - New Bindings list under the keyboard shows everything in the current profile. Click a row to jump to that key, or copy the whole chart as plain text.
+  - Search: type a key or an action and matching keys light up while everything else dims.
+  - Settings panel: 9 themes, effects, text size, keyboard layout (Compact / TKL with arrows / Full with numpad), auto-fit or manual key size, and editing preferences.
+  - Report a problem from inside the app (Settings), with an optional screenshot. Check for updates from Settings too.
+  - Undo: clearing a key, clearing everything, importing, and deleting a profile can all be undone from the popup that appears.
+  - Import now understands files from older versions, new profile files, and full backups. Settings has a one-click backup of every profile.
+  - Your existing profiles, bindings, theme and effect carry over automatically.
+
+**v2.0.3** — 2026-09-05
+  - Fixed: creating a new profile from the profile dropdown did nothing. It now opens a small name box in the app and works.
+  - Fixed: clicking anywhere on a key now starts editing it, not just the lower half.
+  - Fixed: pasting text into a key now pastes plain text on one line, so nothing odd gets stuck in the key.
+  - Fixed: the right-click menu no longer runs off the edge of the window.
+  - Fixed: Import now trims anything too long to fit on a key, the same as typing does.
+  - Fixed: the Quit button on the activation screen had a bright cyan outline. It's the intended subtle grey now.
+  - Fixed: pressing Enter twice on the activation screen could send the activation twice.
+  - Removed the Share button. It copied a link that only worked on your own PC. Use Export to share a layout.
+  - Under the hood: smoother license checks, and a couple of startup edge cases tightened up.
+
+**v2.0.2** — 2026-08-18
+  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
+  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
+
 **v2.0.1** — 2026-06-18
   - Auto-update now re-checks hourly while running, in line with the other KVRNL apps.
 
