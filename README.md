@@ -71,6 +71,16 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v2.0.6** — 2026-09-25
+  - New activation screen with clear steps for getting your free key: create a KVRNL account, get the app from its page, then copy your key from My account. Each step has a button that opens the right page.
+  - Pasting your key is easier: there's a Paste button, and keys are cleaned up automatically even if you copy extra text or spaces along with them.
+  - When a key can't be activated, you now see exactly why, with a button that takes you straight to the fix.
+  - A short outage on the license server no longer locks you out. You can keep working offline for up to 14 days between checks.
+  - If checking your license takes a moment at startup, a small window now tells you so instead of nothing appearing.
+  - Stronger license protection: the app stays fully locked until your key is confirmed.
+  - Fixed: after closing the getting-started tip, the keyboard could flicker between two sizes nonstop. It now stays steady at every window size.
+  - If the window is very small, the keyboard now scrolls instead of getting cut off at the edges.
+
 **v2.0.5** — 2026-09-06
   - Fixed: the app name in the top-left corner was squashed onto one line. It now sits cleanly on two.
 
@@ -101,9 +111,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 **v2.0.2** — 2026-08-18
   - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
   - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
-
-**v2.0.1** — 2026-06-18
-  - Auto-update now re-checks hourly while running, in line with the other KVRNL apps.
 
 Full history → **[kvrnl.io/changelog/master-keybind-chart](https://kvrnl.io/changelog/master-keybind-chart/)**
 
