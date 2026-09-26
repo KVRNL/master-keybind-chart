@@ -71,6 +71,10 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v2.0.7** — 2026-09-26
+  - When the app checks your license, it now also says which version you're running and whether it's just starting up.
+  - The app now shares basic usage info with KVRNL, like which features you use and basic PC details such as your Windows version and screen size. It never sends what you type into keys, your profile names or your files. You can turn it off any time in Settings, under Your data.
+
 **v2.0.6** — 2026-09-25
   - New activation screen with clear steps for getting your free key: create a KVRNL account, get the app from its page, then copy your key from My account. Each step has a button that opens the right page.
   - Pasting your key is easier: there's a Paste button, and keys are cleaned up automatically even if you copy extra text or spaces along with them.
@@ -107,10 +111,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - Fixed: pressing Enter twice on the activation screen could send the activation twice.
   - Removed the Share button. It copied a link that only worked on your own PC. Use Export to share a layout.
   - Under the hood: smoother license checks, and a couple of startup edge cases tightened up.
-
-**v2.0.2** — 2026-08-18
-  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
-  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
 
 Full history → **[kvrnl.io/changelog/master-keybind-chart](https://kvrnl.io/changelog/master-keybind-chart/)**
 
